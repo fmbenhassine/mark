@@ -24,11 +24,21 @@ bookmark:>exit
 $>
 ```
 
-Mark requires Java 8 to run.
+Mark requires Java 8 to run. You can download the latest stable release from the [releases page](https://github.com/benas/mark/releases).
+
+# Build from sources
+
+To build Mark from sources, you need to use [maven](http://maven.apache.org):
+
+```
+$>git clone https://github.com/benas/mark
+$>cd mark
+$>mvn package
+```
 
 # License
 
-Mark is released under the terms if the MIT License:
+Mark is released under the terms of the MIT License:
 
 ```
 The MIT License
