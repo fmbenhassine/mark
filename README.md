@@ -4,7 +4,7 @@ Mark is a simple CLI bookmark manager built with Spring Shell, powered by Spring
 It stores your bookmarks in `~/.mark/bookmarks.db`. You can add, remove and list bookmarks with simple and intuitive commands:
 
 ```
-$>java -jar target/mark-1.0.0.jar
+$>java -jar mark-1.0.0.jar
   __  __            _
  |  \/  |          | |
  | \  / | __ _ _ __| | __
