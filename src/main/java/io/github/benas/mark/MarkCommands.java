@@ -59,5 +59,18 @@ public class MarkCommands {
 		bookmarkDao.add(name, url);
 		return "bookmark added";
 	}
+	
+	@ShellMethod("Browse a bookmark")
+	public void browse(int id) {
+		Bookmark bookmark = bookmarkDao.getById(id);
+		if (bookmark != null) {
+			String url = bookmark.getUrl();
+			try {
+				Desktop.getDesktop().browse(new URI(url));
+			} catch (IOException | URISyntaxException e) {
+				System.err.println("Unable to open bookmark for browsing at url: " + url);
+			}
+		}
+	}
 
 }
