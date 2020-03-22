@@ -20,6 +20,19 @@ bookmark:>add google http://www.google.com
 bookmark added
 bookmark:>list
 Bookmark{id=1, name='google', url='http://www.google.com'}
+bookmark:>help
+AVAILABLE COMMANDS
+
+Built-In Commands
+        clear: Clear the shell screen.
+        exit, quit: Exit the shell.
+        help: Display help about available commands.
+
+Mark Commands
+        add: Add a bookmark
+        list: List all bookmarks
+        remove: Remove a bookmark
+
 bookmark:>exit
 $>
 ```
@@ -43,7 +56,7 @@ Mark is released under the terms of the MIT License:
 ```
 The MIT License
 
-Copyright (c) 2018, Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
+Copyright (c) 2020, Mahmoud Ben Hassine (mahmoud.benhassine@icloud.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
